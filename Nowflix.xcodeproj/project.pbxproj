@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187F52CC26214BA40004A9F1 /* RecommendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F52CB26214BA40004A9F1 /* RecommendListViewController.swift */; };
+		187F52D4262170810004A9F1 /* AppTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F52D3262170810004A9F1 /* AppTabbarController.swift */; };
+		187F52D7262183920004A9F1 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F52D6262183920004A9F1 /* SearchBarViewController.swift */; };
+		187F52DB2622DBAA0004A9F1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 187F52DA2622DBAA0004A9F1 /* Kingfisher */; };
+		187F52E22626BB640004A9F1 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187F52E12626BB640004A9F1 /* Player.storyboard */; };
+		187F52E52626C3A80004A9F1 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F52E42626C3A70004A9F1 /* PlayerViewController.swift */; };
+		187F52E82626C3B00004A9F1 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F52E72626C3B00004A9F1 /* PlayerView.swift */; };
+		187F52EB2628115B0004A9F1 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F52EA2628115B0004A9F1 /* HistoryViewController.swift */; };
+		187F52EE262912BD0004A9F1 /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F52ED262912BD0004A9F1 /* PopularViewController.swift */; };
+		187F52F5262929D00004A9F1 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F52F4262929D00004A9F1 /* DetailTableViewCell.swift */; };
+		187F52F8262953940004A9F1 /* RatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F52F7262953940004A9F1 /* RatedViewController.swift */; };
+		187F530126295A470004A9F1 /* RatedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F530026295A470004A9F1 /* RatedTableViewCell.swift */; };
+		187F5304262960490004A9F1 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F5303262960490004A9F1 /* NowPlayingViewController.swift */; };
+		187F53072629608A0004A9F1 /* NowPlayingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F53062629608A0004A9F1 /* NowPlayingTableViewCell.swift */; };
+		188BACBE261FB69A00691F16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BACBD261FB69A00691F16 /* AppDelegate.swift */; };
+		188BACC0261FB69A00691F16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BACBF261FB69A00691F16 /* SceneDelegate.swift */; };
+		188BACC2261FB69A00691F16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BACC1261FB69A00691F16 /* ViewController.swift */; };
+		188BACC5261FB69A00691F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188BACC3261FB69A00691F16 /* Main.storyboard */; };
+		188BACC7261FB69D00691F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188BACC6261FB69D00691F16 /* Assets.xcassets */; };
+		188BACCA261FB69D00691F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188BACC8261FB69D00691F16 /* LaunchScreen.storyboard */; };
+		188BACD426200ACF00691F16 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 188BACD326200ACF00691F16 /* GoogleService-Info.plist */; };
+		188BACE92620164B00691F16 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BACE82620164B00691F16 /* RegisterViewController.swift */; };
+		188BACF026213D8900691F16 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BACEF26213D8900691F16 /* HomeViewController.swift */; };
+		2ADEB0C1F4652AA1C3681118 /* Pods_Nowflix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346A99F47616E36768586A77 /* Pods_Nowflix.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		187F52CB26214BA40004A9F1 /* RecommendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendListViewController.swift; sourceTree = "<group>"; };
+		187F52D3262170810004A9F1 /* AppTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabbarController.swift; sourceTree = "<group>"; };
+		187F52D6262183920004A9F1 /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
+		187F52E12626BB640004A9F1 /* Player.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
+		187F52E42626C3A70004A9F1 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		187F52E72626C3B00004A9F1 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		187F52EA2628115B0004A9F1 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		187F52ED262912BD0004A9F1 /* PopularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		187F52F4262929D00004A9F1 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		187F52F7262953940004A9F1 /* RatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatedViewController.swift; sourceTree = "<group>"; };
+		187F530026295A470004A9F1 /* RatedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatedTableViewCell.swift; sourceTree = "<group>"; };
+		187F5303262960490004A9F1 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
+		187F53062629608A0004A9F1 /* NowPlayingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingTableViewCell.swift; sourceTree = "<group>"; };
+		188BACBA261FB69A00691F16 /* Nowflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nowflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188BACBD261FB69A00691F16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		188BACBF261FB69A00691F16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		188BACC1261FB69A00691F16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		188BACC4261FB69A00691F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188BACC6261FB69D00691F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188BACC9261FB69D00691F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188BACCB261FB69D00691F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188BACD326200ACF00691F16 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		188BACE82620164B00691F16 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		188BACEF26213D8900691F16 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		346A99F47616E36768586A77 /* Pods_Nowflix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nowflix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5869EE2911FBE5E5CDFA5DA1 /* Pods-Nowflix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nowflix.release.xcconfig"; path = "Target Support Files/Pods-Nowflix/Pods-Nowflix.release.xcconfig"; sourceTree = "<group>"; };
+		F6E08DE8370AD00FB1922F36 /* Pods-Nowflix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nowflix.debug.xcconfig"; path = "Target Support Files/Pods-Nowflix/Pods-Nowflix.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188BACB7261FB69A00691F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187F52DB2622DBAA0004A9F1 /* Kingfisher in Frameworks */,
+				2ADEB0C1F4652AA1C3681118 /* Pods_Nowflix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09124285CB60E8FCFDD0A227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				346A99F47616E36768586A77 /* Pods_Nowflix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12F342BA137E7672660DDE5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6E08DE8370AD00FB1922F36 /* Pods-Nowflix.debug.xcconfig */,
+				5869EE2911FBE5E5CDFA5DA1 /* Pods-Nowflix.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		188BACB1261FB69A00691F16 = {
+			isa = PBXGroup;
+			children = (
+				188BACBC261FB69A00691F16 /* Nowflix */,
+				188BACBB261FB69A00691F16 /* Products */,
+				12F342BA137E7672660DDE5D /* Pods */,
+				09124285CB60E8FCFDD0A227 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		188BACBB261FB69A00691F16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188BACBA261FB69A00691F16 /* Nowflix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188BACBC261FB69A00691F16 /* Nowflix */ = {
+			isa = PBXGroup;
+			children = (
+				188BACE72620150C00691F16 /* Controller */,
+				188BACBD261FB69A00691F16 /* AppDelegate.swift */,
+				188BACBF261FB69A00691F16 /* SceneDelegate.swift */,
+				188BACC3261FB69A00691F16 /* Main.storyboard */,
+				188BACC6261FB69D00691F16 /* Assets.xcassets */,
+				188BACC8261FB69D00691F16 /* LaunchScreen.storyboard */,
+				187F52E12626BB640004A9F1 /* Player.storyboard */,
+				187F52E42626C3A70004A9F1 /* PlayerViewController.swift */,
+				187F52E72626C3B00004A9F1 /* PlayerView.swift */,
+				188BACCB261FB69D00691F16 /* Info.plist */,
+				188BACD326200ACF00691F16 /* GoogleService-Info.plist */,
+			);
+			path = Nowflix;
+			sourceTree = "<group>";
+		};
+		188BACE72620150C00691F16 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				188BACC1261FB69A00691F16 /* ViewController.swift */,
+				188BACE82620164B00691F16 /* RegisterViewController.swift */,
+				188BACEF26213D8900691F16 /* HomeViewController.swift */,
+				187F52CB26214BA40004A9F1 /* RecommendListViewController.swift */,
+				187F52D3262170810004A9F1 /* AppTabbarController.swift */,
+				187F52D6262183920004A9F1 /* SearchBarViewController.swift */,
+				187F52EA2628115B0004A9F1 /* HistoryViewController.swift */,
+				187F52ED262912BD0004A9F1 /* PopularViewController.swift */,
+				187F52F4262929D00004A9F1 /* DetailTableViewCell.swift */,
+				187F52F7262953940004A9F1 /* RatedViewController.swift */,
+				187F530026295A470004A9F1 /* RatedTableViewCell.swift */,
+				187F5303262960490004A9F1 /* NowPlayingViewController.swift */,
+				187F53062629608A0004A9F1 /* NowPlayingTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188BACB9261FB69A00691F16 /* Nowflix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188BACCE261FB69D00691F16 /* Build configuration list for PBXNativeTarget "Nowflix" */;
+			buildPhases = (
+				EFBA650A5AAC49B390E7F6CC /* [CP] Check Pods Manifest.lock */,
+				188BACB6261FB69A00691F16 /* Sources */,
+				188BACB7261FB69A00691F16 /* Frameworks */,
+				188BACB8261FB69A00691F16 /* Resources */,
+				03EBE230396763BDDF51FC89 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nowflix;
+			packageProductDependencies = (
+				187F52DA2622DBAA0004A9F1 /* Kingfisher */,
+			);
+			productName = Nowflix;
+			productReference = 188BACBA261FB69A00691F16 /* Nowflix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188BACB2261FB69A00691F16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					188BACB9261FB69A00691F16 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 188BACB5261FB69A00691F16 /* Build configuration list for PBXProject "Nowflix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188BACB1261FB69A00691F16;
+			packageReferences = (
+				187F52D92622DBAA0004A9F1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 188BACBB261FB69A00691F16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188BACB9261FB69A00691F16 /* Nowflix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188BACB8261FB69A00691F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188BACCA261FB69D00691F16 /* LaunchScreen.storyboard in Resources */,
+				188BACD426200ACF00691F16 /* GoogleService-Info.plist in Resources */,
+				187F52E22626BB640004A9F1 /* Player.storyboard in Resources */,
+				188BACC7261FB69D00691F16 /* Assets.xcassets in Resources */,
+				188BACC5261FB69A00691F16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03EBE230396763BDDF51FC89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nowflix/Pods-Nowflix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nowflix/Pods-Nowflix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nowflix/Pods-Nowflix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFBA650A5AAC49B390E7F6CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nowflix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188BACB6261FB69A00691F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187F5304262960490004A9F1 /* NowPlayingViewController.swift in Sources */,
+				188BACF026213D8900691F16 /* HomeViewController.swift in Sources */,
+				187F52D4262170810004A9F1 /* AppTabbarController.swift in Sources */,
+				187F52D7262183920004A9F1 /* SearchBarViewController.swift in Sources */,
+				187F52F8262953940004A9F1 /* RatedViewController.swift in Sources */,
+				187F52EE262912BD0004A9F1 /* PopularViewController.swift in Sources */,
+				187F52E82626C3B00004A9F1 /* PlayerView.swift in Sources */,
+				187F53072629608A0004A9F1 /* NowPlayingTableViewCell.swift in Sources */,
+				187F52F5262929D00004A9F1 /* DetailTableViewCell.swift in Sources */,
+				188BACC2261FB69A00691F16 /* ViewController.swift in Sources */,
+				187F52EB2628115B0004A9F1 /* HistoryViewController.swift in Sources */,
+				188BACBE261FB69A00691F16 /* AppDelegate.swift in Sources */,
+				187F52E52626C3A80004A9F1 /* PlayerViewController.swift in Sources */,
+				187F530126295A470004A9F1 /* RatedTableViewCell.swift in Sources */,
+				187F52CC26214BA40004A9F1 /* RecommendListViewController.swift in Sources */,
+				188BACC0261FB69A00691F16 /* SceneDelegate.swift in Sources */,
+				188BACE92620164B00691F16 /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		188BACC3261FB69A00691F16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188BACC4261FB69A00691F16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		188BACC8261FB69D00691F16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188BACC9261FB69D00691F16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188BACCC261FB69D00691F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		188BACCD261FB69D00691F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188BACCF261FB69D00691F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E08DE8370AD00FB1922F36 /* Pods-Nowflix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nowflix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Moon.Nowflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188BACD0261FB69D00691F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5869EE2911FBE5E5CDFA5DA1 /* Pods-Nowflix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nowflix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Moon.Nowflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188BACB5261FB69A00691F16 /* Build configuration list for PBXProject "Nowflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188BACCC261FB69D00691F16 /* Debug */,
+				188BACCD261FB69D00691F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188BACCE261FB69D00691F16 /* Build configuration list for PBXNativeTarget "Nowflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188BACCF261FB69D00691F16 /* Debug */,
+				188BACD0261FB69D00691F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		187F52D92622DBAA0004A9F1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		187F52DA2622DBAA0004A9F1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 187F52D92622DBAA0004A9F1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 188BACB2261FB69A00691F16 /* Project object */;
+}
